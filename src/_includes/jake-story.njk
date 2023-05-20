@@ -1,0 +1,11 @@
+<li>
+  <article class="story">
+    <div class="story__text">
+      <h2 class="story__heading">{{ post.data.title }}</h2>
+      <p class="story__description">{{ post.data.description }}</p>
+    </div>
+    <a class="story__link" href={{ post.data.image }}>
+      <img class="story__image" src={{ post.data.image | image(500) }} alt={{ post.data.imageAlt }} />
+    </a>
+  </article>
+</li>

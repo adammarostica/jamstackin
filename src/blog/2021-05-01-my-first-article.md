@@ -3,7 +3,7 @@ title: My First Article
 author: Kevin Powell
 date: 2021-05-01
 tags: ['featured']
-image: /assets/blog/article-1.jpg
+image: https://lh3.googleusercontent.com/drive-viewer/AFGJ81olBGcQQ2WHSbBjjriQH7_7qCAz_kzyyVbjWPRkbU2KqXk1TedjdQz7fpBQBomuS97J_VzQu5R8vPI4_M8l6fZ8vcWt-w=s1600
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
