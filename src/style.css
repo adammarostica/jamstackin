@@ -294,6 +294,7 @@ section.hero {
 .jake-face {
   max-height: 50vh;
   margin: auto;
+  transform: scale(0);
 }
 
 .jake-title {
@@ -303,6 +304,15 @@ section.hero {
   left: 0;
   right: 0;
   margin: auto;
+  transform: scale(0);
+}
+
+.jake-face.tada {
+  animation: growAndRotate 1s .3s linear forwards;
+}
+
+.jake-title.tada {
+  animation: grow 1s .4s linear forwards;
 }
 
 @keyframes spinZ {
@@ -312,6 +322,74 @@ section.hero {
   100% {
     transform: rotate(360deg);
   }
+}
+
+@keyframes grow {
+  0% {
+		transform: scale(0);
+	}
+
+	16% {
+		transform: scale(1.32);
+	}
+
+	28% {
+		transform: scale(0.87);
+	}
+
+	44% {
+		transform: scale(1.05);
+	}
+
+	59% {
+		transform: scale(0.98);
+	}
+
+	73% {
+		transform: scale(1.01);
+	}
+
+	88% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes growAndRotate {
+  0% {
+		transform: scale(0) rotate(-30deg);
+	}
+
+	16% {
+		transform: scale(1.32) rotate(10deg);
+	}
+
+	28% {
+		transform: scale(0.87) rotate(-5deg);
+	}
+
+	44% {
+		transform: scale(1.05) rotate(5deg);
+	}
+
+	59% {
+		transform: scale(0.98) rotate(-2deg);
+	}
+
+	73% {
+		transform: scale(1.01) rotate(1deg);
+	}
+
+	88% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
 }
 
 .hero__image {
